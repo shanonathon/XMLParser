@@ -17,6 +17,8 @@ heap_final = str(heap_second)
 
 
 for tag in soup.find_all('java-runtime-environment'):
+	doc.write('<style>body {font-family:helvetica;background-color:gray;} h3 {border-style:solid}</style>')
+	doc.write('<body>')
 	doc.write('<h3>JAVA CONFIGURATION</h3>')
 	doc.write('<b>JAVA HOME: </b>')
 	doc.write(tag.find('java.home').text)
@@ -88,7 +90,7 @@ for tag in soup.find_all('path-information'):
 doc.write('<br>')
 doc.write('<b>BASE URL: </b>')
 doc.write(baseurl)
-
+doc.write('</body>')
 
 
 
