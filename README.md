@@ -3,16 +3,13 @@ The mechanism for parsing the application.xml data is comprised of a python scri
 Requirements:
 
 Install the BeautifulSoup library:
-sudo pip install BeautifulSoup
+*sudo pip install BeautifulSoup*
 
-Clone/Download the repository.
-Move the convert.py script to the location of your choice.
-Double-click the "JIRA XML Parser.workflow" and install as a service.
-After installation is complete, open the workflow in Automator. 
-Replace the path in the first workflow step with the path you chose to save convert.py
-Save the workflow.
-???
-Profit.
-
-
-
+* Clone/Download the repository.
+* Move the convert.py script to the location of your choice.
+* Double-click the "JIRA XML Parser.workflow" and install as a service.
+* After installation is complete, open the workflow in Automator. 
+* Replace the path in the first workflow step with the path you chose to save convert.py
+* Save the workflow.
+* ???
+* Profit.
