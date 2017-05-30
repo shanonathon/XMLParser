@@ -3,7 +3,7 @@ import sys, re
 
 soup = BeautifulSoup(open(sys.argv[1], 'r'), 'xml')
 
-doc = open('/Users/sseaver/Desktop/application-extract.html','w')
+doc = open('~/Desktop/application-extract.html','w')
 
 tags = []
 
