@@ -8,7 +8,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Parse Application XML</string>
+				<string>JIRA XML Parser</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
