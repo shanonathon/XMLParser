@@ -3,8 +3,7 @@ The mechanism for parsing the application.xml data is comprised of a python scri
 Requirements:
 
 Install the BeautifulSoup and lxml library:
-*sudo pip install BeautifulSoup*
-*sudo pip install lxml*
+* sudo pip install -r requirements.txt
 
 * Clone/Download the repository.
 * Move the convert.py script to the location of your choice.
