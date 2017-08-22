@@ -1,0 +1,15 @@
+@font-face {
+    font-family: circular;
+    src: url(circular.tff);
+}
+
+.navbar{
+	background-color: #005cf2
+}
+
+.navbar-default .navbar-text {
+	color:white;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: "Avenir Next", Ultra Light;
+}

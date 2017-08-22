@@ -15,6 +15,13 @@ heap_final = str(heap_second)
 
 doc.write('<link href="/Users/sseaver/Documents/Dev/Converter/assets/bootstrap.min.css" rel="stylesheet"> ')
 doc.write('<link href="/Users/sseaver/Documents/Dev/Converter/assets/converter.css" rel="stylesheet"> ')
+doc.write('<nav class="navbar navbar-default">')
+doc.write('<div class="container-fluid">')
+doc.write('<div class="navbar-header">')
+doc.write('<p class="navbar-text"> XML Parser </p>')
+doc.write('</div>')
+doc.write('</div>')
+doc.write('</nav>')
 
 for tag in soup.find_all('java-runtime-environment'):
 	doc.write('<body>')
