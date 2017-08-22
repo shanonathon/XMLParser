@@ -34,8 +34,10 @@ for tag in soup.find_all('java-runtime-environment'):
 	doc.write(heap_final)
 	doc.write('MB')
 	doc.write('<br>')
+for tag in soup.find_all('system-information'):
+	doc.write('<b>JAVA Vendor: </b>')
+	doc.write(tag.find('Java-Vendor').text)
 	doc.write('</div>')
-	
 
 for tag in soup.find_all('operating-system'):
 	doc.write('<div class="col-md-3">')
@@ -58,7 +60,7 @@ for tag in soup.find_all('system-information'):
 	doc.write('<br>')
 	doc.write('<b>DATABASE VERSION: </b>')
 	doc.write(tag.find('Database-version').text)
-	doc.write('<br>')
+	doc.write('<br>')	
 	doc.write('</div>')
 
 
@@ -99,6 +101,10 @@ for tag in soup.find_all('path-information'):
 doc.write('<br>')
 doc.write('<b>BASE URL: </b>')
 doc.write(baseurl)
+doc.write('<br>')
+for tag in soup.find_all('application-properties'):
+	doc.write('<b>JIRA Version: </b>')
+	doc.write(tag.find('jira.version').text)
 doc.write('</div>')
 doc.write('</div>')
 doc.write('</body>')
